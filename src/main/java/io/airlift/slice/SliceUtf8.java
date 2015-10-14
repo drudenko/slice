@@ -428,7 +428,7 @@ public final class SliceUtf8
         return utf8.slice(0, utf8Position);
     }
 
-    private static int getCodePointAtSafe(Slice utf8, int position)
+    public static int getCodePointAtSafe(Slice utf8, int position)
     {
         //
         // Process first byte
